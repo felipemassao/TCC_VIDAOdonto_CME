@@ -148,6 +148,8 @@
      <Compile Include="Assets\OVR\Textures\FirstPersonController.cs" />
      <Compile Include="Assets\RaycastTest.cs" />
      <Compile Include="Assets\SceneController.cs" />
+     <Compile Include="Assets\Teste.cs" />
+     <Compile Include="Assets\WearTest.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
      <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
@@ -171,7 +173,7 @@
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>C:/Users/USP/Unity/Objetos/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>C:/Users/USP/Unity/TCC_VIDA_Odonto_CME/Objetos/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
