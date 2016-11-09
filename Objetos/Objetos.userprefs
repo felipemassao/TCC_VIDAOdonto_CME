@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeapMotion\Scripts\Hands\CapsuleHand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TaskManager\TaskList.cs">
     <Files>
-      <File FileName="Assets\WearTest.cs" Line="17" Column="2" />
-      <File FileName="Assets\GrabScript.cs" Line="38" Column="3" />
-      <File FileName="Assets\FirstPersonCamera\TeleportScript.cs" Line="18" Column="1" />
-      <File FileName="Assets\SceneController.cs" Line="1" Column="1" />
-      <File FileName="Assets\LeapMotion\Scripts\Hands\CapsuleHand.cs" Line="1" Column="1" />
-      <File FileName="Assets\LeapMotion\Scripts\HandPool.cs" Line="1" Column="1" />
+      <File FileName="Assets\LockAnotherObject.cs" Line="7" Column="17" />
+      <File FileName="Assets\TaskManager\TaskList.cs" Line="38" Column="20" />
+      <File FileName="Assets\TaskManager\TaskTestNotify.cs" Line="6" Column="1" />
+      <File FileName="Assets\SceneController.cs" Line="13" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

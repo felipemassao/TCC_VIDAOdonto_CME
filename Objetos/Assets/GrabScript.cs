@@ -36,7 +36,7 @@ public class GrabScript : MonoBehaviour {
 			transform.parent = logicHand.transform;
 		}
 
-		Debug.Log (hand.GrabStrength);
+		//Debug.Log (hand.GrabStrength);
 	}
 
 	void OnCollisionStay(){
