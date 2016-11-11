@@ -49,7 +49,6 @@
      <Compile Include="Assets\FirstPersonCamera\CrosshairDraw.cs" />
      <Compile Include="Assets\FirstPersonCamera\MouseMovementCamera.cs" />
      <Compile Include="Assets\FirstPersonCamera\TeleportScript.cs" />
-     <Compile Include="Assets\GrabScript.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SlidingMax.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedFloat.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedQuaternion.cs" />
@@ -116,7 +115,12 @@
      <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\VRHeightOffset.cs" />
-     <Compile Include="Assets\LockAnotherObject.cs" />
+     <Compile Include="Assets\MainScene\GrabScript.cs" />
+     <Compile Include="Assets\MainScene\LockAnotherObject.cs" />
+     <Compile Include="Assets\MainScene\RaycastTest.cs" />
+     <Compile Include="Assets\MainScene\SceneController.cs" />
+     <Compile Include="Assets\MainScene\Teste.cs" />
+     <Compile Include="Assets\MainScene\WearTest.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRBoundary.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
@@ -147,12 +151,9 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
      <Compile Include="Assets\OVR\Textures\ChangeColorTrigger.cs" />
      <Compile Include="Assets\OVR\Textures\FirstPersonController.cs" />
-     <Compile Include="Assets\RaycastTest.cs" />
-     <Compile Include="Assets\SceneController.cs" />
+     <Compile Include="Assets\StartMenu\ClickEvents.cs" />
      <Compile Include="Assets\TaskManager\TaskList.cs" />
      <Compile Include="Assets\TaskManager\TaskTestNotify.cs" />
-     <Compile Include="Assets\Teste.cs" />
-     <Compile Include="Assets\WearTest.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
      <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />

@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TaskManager\TaskList.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MainScene\SceneController.cs">
     <Files>
-      <File FileName="Assets\LockAnotherObject.cs" Line="7" Column="17" />
-      <File FileName="Assets\TaskManager\TaskList.cs" Line="38" Column="20" />
-      <File FileName="Assets\TaskManager\TaskTestNotify.cs" Line="6" Column="1" />
-      <File FileName="Assets\SceneController.cs" Line="13" Column="3" />
+      <File FileName="Assets\MainScene\SceneController.cs" Line="9" Column="32" />
+      <File FileName="Assets\TaskManager\TaskList.cs" Line="33" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -31,9 +31,6 @@ public class TaskList : MonoBehaviour {
 
 		isDone = true; foreach (KeyValuePair<string, bool> kvp in notificationList) {
 
-			Debug.Log (kvp.Key);
-			Debug.Log (kvp.Value);
-
 			if (notificationList [kvp.Key] == false) {
 				isDone = false;
 				//Debug.Log ("false");
