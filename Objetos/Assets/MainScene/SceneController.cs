@@ -6,7 +6,7 @@ public class SceneController : MonoBehaviour {
 
 	public static SceneController instance = null;
 	public string actualScene;
-	public string gender = "female";
+	public string gender;
 
 	void Awake () {
 
@@ -17,6 +17,12 @@ public class SceneController : MonoBehaviour {
 
 		DontDestroyOnLoad (gameObject);
 		
+	}
+
+	void Start () {
+		
+		gender = "female";
+
 	}
 
 	void Update () {

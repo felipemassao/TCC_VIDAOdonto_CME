@@ -21,10 +21,22 @@ public class ClickEvents : MonoBehaviour {
 		actualScreen = nextScreen;
 	}
 
-	public void SetGender(string gender){
+	public void SetGender( string gender ){
 
 		Debug.Log (gender);
 		SceneController.instance.gender = gender;
+
+	}
+
+	public void ShowGameObject( GameObject image ){
+
+		image.SetActive (true);
+
+	}
+
+	public void NotShowGameObject ( GameObject image ){
+
+		image.SetActive (false);
 
 	}
 

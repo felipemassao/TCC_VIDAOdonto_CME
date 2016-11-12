@@ -19,7 +19,7 @@ public class GrabScript : MonoBehaviour {
 	void Update () {
 		frame = controller.Frame ();
 
-		if (grab) {
+		/*if (grab) {
 			this.GetComponent<Rigidbody> ().isKinematic = true;
 			transform.parent = logicHand.transform;
 		} else {
@@ -28,12 +28,14 @@ public class GrabScript : MonoBehaviour {
 			}
 
 		if (hand.GrabStrength <= 0.1f)
-			grab = false;
+			grab = false;*/
 
 		if (Input.GetKeyDown (KeyCode.G)) {
-			this.GetComponent<Rigidbody> ().isKinematic = true;
+
+			Debug.Log ("fwgweg");
 			transform.position = logicHand.transform.position;
 			transform.parent = logicHand.transform;
+
 		}
 
 		//Debug.Log (hand.GrabStrength);
