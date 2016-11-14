@@ -30,7 +30,7 @@ namespace Leap.Unity{
     private Transform _palm;
     private Transform[] _joints;
   
-    public override Chirality Handedness {
+	public override Chirality Handedness {
       get {
         return Chirality.Either;
       }
